@@ -9,7 +9,7 @@ class Config():
     API_HASH = os.environ.get("API_HASH", None)
   else:
     BOT_TOKEN = "1251613397:AAG_akn6CXfKQt94wwEELNojcsA_dJ9LZfU"
-    DATABASE_URL = ""
+    DATABASE_URL = "mongodb+srv://Trackstudio:Trackstudio@cluster0.1mrcj.mongodb.net/<dbname>?retryWrites=true&w=majority"
     APP_ID = "1520325"
     API_HASH = "5448863e83be91ffd1bf0ab4ff3d42c6"
 
