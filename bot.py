@@ -6,8 +6,8 @@ plugins = dict(
     root="plugins",
     include=[
         #"start",
-        "help",
-        "forceSubscribe"
+        #"help",
+        #"forceSubscribe"
     ]
 )
 
