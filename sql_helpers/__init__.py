@@ -9,7 +9,7 @@ from Config import Config
 
 
 def start() -> scoped_session:
-    engine = create_engine(Config.DATABASE_URL)
+    engine = create_engine(Config.DATABASE_URL, client_encoding="utf8")
     BASE.metadata.bind = engine
     BASE.metadata.create_all(engine)
     return scoped_session(sessionmaker(bind=engine, autoflush=False))
