@@ -9,7 +9,7 @@
 
 ## Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hillard-har/ForceSub_Ts_Bot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ninja8bpyt/ForceSub_Ts_Bot/tree/master)
 
 - Clone this repo
 ```
