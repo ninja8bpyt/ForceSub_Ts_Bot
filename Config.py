@@ -8,10 +8,10 @@ class Config():
     APP_ID = os.environ.get("APP_ID", 6)
     API_HASH = os.environ.get("API_HASH", None)
   else:
-    BOT_TOKEN = "1251613397:AAG_akn6CXfKQt94wwEELNojcsA_dJ9LZfU"
+    BOT_TOKEN = "1648439500:AAGRQX1fcj8YddQNKUtOzaC-r0qhuv3HADs"
     DATABASE_URL = "mongodb+srv://Trackstudio:Trackstudio@cluster0.1mrcj.mongodb.net/<dbname>?retryWrites=true&w=majority"
-    APP_ID = "1520325"
-    API_HASH = "5448863e83be91ffd1bf0ab4ff3d42c6"
+    APP_ID = "2179686"
+    API_HASH = "e843e77278c40597cb6e143a69011b03"
 
 
 class Messages():
@@ -20,8 +20,8 @@ class Messages():
 
         "**Force Subscribers**\nForce group members to join a specific channel before sending messages in the group.\n\n**Setup**\n**Step 1.** __Add me in a group(in which you are creator of the group) as admin.__\n**Step 2.** __Send__ `/ForceSubscribe {your channel username}`\n**Step 3.** __Add me to your channel as admin.__\n\n`All set ! I mute users who didn't joined your channel and ask them to join channel and unmute themself.`\n\n**Commands**\n\n/ForceSubscribe { off / no / disable} - To stop force subscriber\n\n/ForceSubscribe {Channel Username} - Set the Channel\n\n/ForceSubscribe - Get current Status",
         
-        "**Developed by @MaxxRider**\n\nPowered by @MaxxPrivate\nThanks to - @PyroGram @HasibulKobir"
+        "**Developed by @Ninja8bpYt**\n\nJoin @Bots_Ki_Duniya**"
       ]
 
-      START_MSG = "Hey [{}](tg://user?id={})\nI am a multifunctional group manager bot.\nLearn more at /help"
+      START_MSG = "**Hey {message.chat.first_name}!\nI am a multifunctional group manager bot.\nLearn more at /help**"
       
