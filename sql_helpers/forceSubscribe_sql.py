@@ -23,7 +23,7 @@ def fs_settings(chat_id):
         SESSION.close()
 
 
-def add_channel(chat_id, channel):
+def add_channel(chat_id):
     adder = SESSION.query(forceSubscribe).get(chat_id)
     if adder:
         adder.channel = channel
